@@ -1,0 +1,51 @@
+playwright is browser automation framework created by Microsoft
+it can automate
+chrome
+firefox
+edge
+safari(webkit)
+
+
+it is used for
+ui testing
+end to end testing
+api testing
+
+instead of manually opening browser ,opening google.com Search "Playwright .
+
+Playwright will do these steps automatically
+
+
+How playwright works
+
+from test to playwright then browser Engine then website
+
+example code:
+test('Login test',async ({page})=>{
+await page.goto('https://google.com');
+await page.locator('[name="q"]').fill('Playwright');
+await page.keyboard.press('Enter');
+});
+
+Playwright Project Structure
+
+create project=-
+
+npm init playwright@latest
+
+auto generate script
+npx playwight codegen https://examole.com
+
+syntax
+//tagname[@attribute='value']
+
+//-select currect node
+tagname-tagname of the particular node
+@-select attribute
+Attribute-name of the attribute
+Value-Value of the attribute.
+
+Using contains
+
+
+//tagname[contains(@attribute,'value')]

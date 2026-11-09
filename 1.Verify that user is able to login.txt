@@ -1,0 +1,49 @@
+1.Verify that user is able to login using valid phone number
+
+2.Check products are visible for guest users
+
+3.Check whether the user is able to see products after signup
+
+4.Check No results found to be visible on invalid product search
+
+5.Verify user is going into new tab on clicking Skin Care category
+
+6.Verify user name is visible in the home page after login
+
+7.Verify user can access the profile page
+
+8.Verify custom popup on clicking logout button
+
+9.On clicking sneakers product Check size chart is visible 
+
+10.After adding a product check user can change the quantity in the cart page
+
+11.Check Payment method options is visible after clicking procced button from the cart page
+
+12.Check Price details is visible on cart page
+
+13.Validate total amount is displayed correctly on the cart page
+
+14.Verify user is able to click Add to Bag button
+
+15.Check product image is visible after clicking the product
+
+16.Ensure guest users cannot proceed to checkout without authentication
+
+17.Test login page functionality with invalid credentials
+
+18.Verify NO ITEMS IN THE WISHLIST should visible when no item is added to wishlist
+
+19.Validate the Phone Number or Email field is displayed upon clicking the Sign In button
+
+20.Verify user can remove a product from the cart successfully
+
+21. Verify the message "YOUR SHOPPING BAG IS EMPTY" is displayed when the cart contains no items
+
+22.Verify guest user can add product to cart 
+
+23.Verify user is navigating to help center page
+
+24.Verify valid user can add comments to the products
+
+25.Verify invalid coupon code displays an error message

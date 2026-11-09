@@ -1,0 +1,36 @@
+First give a name
+
+Tell what port your jmeter want to listen
+
+Also provide where i want to track my recording actions 
+
+And just say exclude few things 
+
+for recording we have two type of settings one is in jmeter
+
+next go to fire fox browers and need to set accordingly
+
+onc you finished change the proxy to default
+
+
+blazemeter plugin 
+
+jmeter only accepts .jmx files 
+
+blazemeter records all the actions then we will convert that into .jmx file 
+
+blazemeter will record only the neccessery action which have been performed.
+
+jmeter is used to put load on the user flow 
+
+first check with one user whether the test is passing or not  then go with the thread and we have listeners which gives the differet type of reports so will be getting the reports (eg: Aggregate report,Graph results,View result tree)
+
+Average - time taken to get the response back to the user
+Throughput -
+
+Ulimate thread group vs concurrency thread group (**important).
+
+Main sampler and sub sampler in the View Result Tree.
+ 
+
+

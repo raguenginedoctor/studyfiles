@@ -1,0 +1,15 @@
+Some Imp topics in spring boot
+spring initializer 
+starter projects
+Auto configuration
+Developer Tools
+Actuator 
+etc...
+
+
+
+dependency Management
+-
+
+Logging ,Error handling,Monitoring
+

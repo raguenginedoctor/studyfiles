@@ -1,0 +1,60 @@
+lets understand what is the need of ci how it is working
+ lets take the playwright frame work ok!
+
+when ever we are updating or changing our code we manually do this steps
+like
+1. Open Project
+2. Run npm install
+3. Run playwright test
+4.Generate Report
+5.Check Results.
+this steps are repetative So we need to automate it.
+
+So here the CI comes under the picture
+
+once developer pushes the code
+GitHub detects the changes
+it will run those test and produces reports.
+
+That automated process is called a "Pipeline".
+
+What is a Pipeline?
+Sequence of Automated Steps
+
+Checkout Code
+↓
+Install Dependencies
+↓
+Build Application
+↓
+Run Tests
+↓
+Generate Report
+↓
+Notify Team
+This is called as Ci pipeline
+
+Then what is this workflow?
+In GitHub Actions, a pipeline is defined using a "Workflow File".
+
+Pipeline
+    =
+Workflow
+    =
+YAML File
+
+
+Simplest Workflow
+YAML
+name: Playwright Tests
+ 
+on: push
+ 
+jobs:
+test:
+runs-on: ubuntu-latest
+ 
+steps:
+- uses: actions/checkout@v4
+ 
+- run: echo "Hello"
